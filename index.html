@@ -55,8 +55,8 @@
           const activeBox = playerOne.querySelector(".active");
           const nextBox = activeBox.nextElementSibling;
           activeBox.classList.toggle("active");
-          if (nextBox.classList.value.includes("last")) {
-            nextBox.classList.add("active");
+          if (activeBox.classList.value.includes("last")) {
+            activeBox.classList.add("active");
             confirm("Player 1 won!");
             raceTracks.querySelectorAll("td").forEach((td) => {
               td.classList.remove("active");
@@ -75,8 +75,8 @@
           const activeBox = playerTwo.querySelector(".active");
           const nextBox = activeBox.nextElementSibling;
           activeBox.classList.toggle("active");
-          if (nextBox.classList.value.includes("last")) {
-            nextBox.classList.add("active");
+          if (activeBox.classList.value.includes("last")) {
+            activeBox.classList.add("active");
             confirm("Player 2 won!");
             raceTracks.querySelectorAll("td").forEach((td) => {
               td.classList.remove("active");
