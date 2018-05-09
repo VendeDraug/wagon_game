@@ -1,0 +1,38 @@
+h1 {
+  font-weight: bold;
+}
+
+.racer_table {
+  margin: 30px;
+}
+
+.track_box {
+  height: 100px;
+  width: 8.3vw;
+  background-color: #e1e1e1;
+}
+
+#player1_race {
+  border-bottom-style: dashed;
+  border-color: #FCE900;
+  border-bottom-width: 10px;
+}
+
+
+.last {
+  background-image: url("images/flag.jpg");
+  background-size: cover;
+}
+
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#player1_race td.active {
+  background-image: url("images/player_1.png");
+}
+
+#player2_race td.active {
+  background-image: url("images/player_2.png");
+}
